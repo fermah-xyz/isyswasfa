@@ -7,4 +7,5 @@ edition = "2021"
 by_address = "1.1.0"
 futures = "0.3.30"
 once_cell = "1.19.0"
-wit-bindgen = { path = "../wit-bindgen/crates/guest-rust" }
+wit-bindgen ={ git = "https://github.com/fermah-xyz/isyswasfa.git"}
+

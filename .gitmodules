@@ -1,6 +1,7 @@
-[submodule "wit-bindgen"]
-	path = wit-bindgen
-	url = https://github.com/dicej/wit-bindgen
 [submodule "wasm-tools"]
 	path = wasm-tools
 	url = https://github.com/dicej/wasm-tools
+[submodule "wasmtime"]
+	path = wasmtime
+	url = git@github.com:dicej/wasmtime.git
+	branch = isyswasfa
