@@ -9,7 +9,7 @@ wasmtime::component::bindgen!({
         import isyswasfa:io/poll;
         import isyswasfa:io/pipe;
 
-        export dummy: func(input: poll-input) -> poll-output;                
+        export dummy: func(input: poll-input) -> poll-output;
     ",
     async: {
         only_imports: []
@@ -23,6 +23,9 @@ wasmtime::component::bindgen!({
         "isyswasfa:isyswasfa/isyswasfa/cancel": Task,
     }
 });
+
+pub extern crate wasmtime;
+pub extern crate wasmtime_wasi;
 
 use {
     anyhow::{anyhow, bail},
